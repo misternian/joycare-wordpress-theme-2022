@@ -6,7 +6,7 @@ Description:
 Version: 1.0.0
 License: GNU General Public License v2 or later
 License URI: LICENSE
-Text Domain: tailwindcss
+Text Domain: joycare-wordpress-theme-2022
 Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
 
 This theme, like WordPress, is licensed under the GPL.
@@ -37,7 +37,140 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 	## Galleries
 --------------------------------------------------------------*/
 
+#top-bar {
+	background-color: #111;
+}
 
+#top-bar-text {
+	color: #ddd;
+}
+
+#masthead {
+	height: auto;
+	min-height: unset;
+	background-image: url('images/hero2.jpg');
+	padding-top: 200px;
+	padding-bottom: 320px;
+}
+
+#site-branding{
+	position: absolute;
+	left: 0;
+	right: 0;
+	z-index: 100;
+}
+
+#site-logo {
+	background-image: url('images/logo-white-h50px-1.png');
+}
+
+#site-title {
+	color: #fff !important;
+}
+
+.site-title-link {
+	color: #fff !important;
+}
+
+#masthead-h1 {
+	font-size: 60px;
+	line-height: 1;
+	padding-top: 120px;
+}
+
+#masthead-button {
+	margin-top: 40px;
+}
+
+#masthead-button-aboutus {
+	text-align: center;
+	border-top-width: 2px;
+	border-top-color: rgb(3, 169, 244);
+	border-top-style: solid;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-right-width: 2px;
+	border-right-color: rgb(3, 169, 244);
+	border-right-style: solid;
+	border-bottom-width: 2px;
+	border-bottom-color: rgb(3, 169, 244);
+	border-bottom-style: solid;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-left-width: 2px;
+	border-left-color: rgb(3, 169, 244);
+	border-left-style: solid;
+	padding-top: 15px;
+	padding-right: 30px;
+	padding-bottom: 15px;
+	padding-left: 30px;
+	transition-duration: 0.5s;
+	background-color: rgb(3, 169, 244);
+	background-image: none;
+	font-family: Open Sans;
+	font-weight: 600;
+	text-transform: uppercase;
+	font-size: 14px;
+	line-height: 1;
+	letter-spacing: 1px;
+	color: #FFFFFF;
+}
+
+#masthead-button-contactus {
+	text-align: center;
+	font-family: Open Sans;
+	font-weight: 600;
+	text-transform: uppercase;
+	font-size: 14px;
+	line-height: 1;
+	letter-spacing: 1px;
+	color: #FFFFFF;
+	border-top-width: 2px;
+	border-top-color: #FFFFFF;
+	border-top-style: solid;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	border-right-width: 2px;
+	border-right-color: #FFFFFF;
+	border-right-style: solid;
+	border-bottom-width: 2px;
+	border-bottom-color: #FFFFFF;
+	border-bottom-style: solid;
+	border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 4px;
+	border-left-width: 2px;
+	border-left-color: #FFFFFF;
+	border-left-style: solid;
+	padding-top: 15px;
+	padding-right: 30px;
+	padding-bottom: 15px;
+	padding-left: 30px;
+	transition-duration: 0.5s;
+	background-color: rgba(0,0,0,0);
+	background-image: none;
+}
+
+#masthead-footer {
+	height: 90px;
+	bottom: calc(0px);
+	width: 100%;
+	max-width: 100%;
+	overflow: hidden;
+	position: absolute;
+	z-index: 1;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	left: 0px;
+	pointer-events: none;
+}
+
+#masthead-footer-svg {
+	display: block;
+	max-height: 100%;
+	width: 100%;
+	height: 100%;
+}
 /*--------------------------------------------------------------
 # Navigation
 --------------------------------------------------------------*/
